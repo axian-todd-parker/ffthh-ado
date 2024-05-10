@@ -9,7 +9,7 @@ variables:
 - name: storageAccount
   value: ffthhstoragetodd
 - name: storageContainer
-  value: $web
+  value: '$web'
 
 trigger:
 - main
