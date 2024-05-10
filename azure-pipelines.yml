@@ -8,6 +8,8 @@ variables:
   value: AzureServiceConnection 
 - name: storageAccount
   value: ffthhstoragetodd
+- name: storageContainer
+  value: $web
 
 trigger:
 - main
