@@ -26,7 +26,7 @@ steps:
 - script: |
     yarn
     yarn build
-    yarn test
+    yarn test CI=true
   displayName: 'npm install and build'
 
 - task: AzureCLI@2
